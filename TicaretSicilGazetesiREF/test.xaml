@@ -1,0 +1,138 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="test" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="502,845" sap2010:WorkflowViewState.IdRef="test_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="test" sap:VirtualizedContainerService.HintSize="512,780" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="450,692" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="b937b45c-a1a2-45d7-a198-93ae588bc31f" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,452" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Müdürlük' ReferenceIdx='0' Name='Müdürlük'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Sicil No' ReferenceIdx='1' Name='Sicil No'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Unvan' ReferenceIdx='2' Name='Unvan'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Yayın Tarihi' ReferenceIdx='3' Name='Yayın Tarihi'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Sayı' ReferenceIdx='4' Name='Sayı'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Sayfa' ReferenceIdx='5' Name='Sayfa'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='İlan Türü' ReferenceIdx='6' Name='İlan Türü'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Gazete' ReferenceIdx='7' Name='Gazete'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Sepete Ekle' ReferenceIdx='8' Name='Sepete Ekle'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Geri Bildirim' ReferenceIdx='9' Name='Geri Bildirim'&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xD;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xD;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xD;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xD;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xD;&#xA;&#x9;&lt;/Column&gt;&#xD;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xD;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Müdürlük' attr='fulltext' /&gt;&lt;column name='Sicil No' attr='fulltext' /&gt;&lt;column name='Unvan' attr='fulltext' /&gt;&lt;column name='Yayın Tarihi' attr='fulltext' /&gt;&lt;column name='Sayı' attr='fulltext' /&gt;&lt;column name='Sayfa' attr='fulltext' /&gt;&lt;column name='İlan Türü' attr='fulltext' /&gt;&lt;column name='Gazete' attr='fulltext' /&gt;&lt;column name='Sepete Ekle' attr='fulltext' /&gt;&lt;column name='Geri Bildirim' attr='fulltext' /&gt;&lt;/extract-table&gt;" sap:VirtualizedContainerService.HintSize="354,197" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" Version="V3">
+              <uix:NExtractData.NextLink>
+                <uix:TargetAnchorable BrowserURL="https://www.ticaretsicil.gov.tr/view/hizlierisim/ilangoruntuleme.php" CvTextArea="1162, 635, 51, 16" CvTextArgument="Sonraki" CvType="Text" DesignTimeRectangle="1150, 625, 87, 38" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='tblIlanGoruntuleme_next' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='tblIlanGoruntuleme_next' tag='A' type='' class='' aaname='Sonraki' check:innerText='Sonraki' /&gt;" Guid="e85301f5-f243-4c5c-bf06-933fbd9bef2e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Türkiye Ticaret Sicili Gazetesi | TOBB' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+              </uix:NExtractData.NextLink>
+              <uix:NExtractData.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="98, 371, 1140, 518" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl id='tblIlanGoruntuleme' tag='TABLE' /&gt;" Guid="05d3a4bc-c05c-4f5b-808e-970f0b8085ff" InformativeScreenshot="e9af300d1c23c6b389af8e2314d7f122.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Türkiye Ticaret Sicili Gazetesi | TOBB' /&gt;" SearchSteps="Selector" Version="V3" Visibility="Interactive" />
+              </uix:NExtractData.Target>
+            </uix:NExtractData>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,168" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;&quot;]" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="2fa80800e69adde67cf0a1d8a43e598e.jpg" Selector="&lt;html app='chrome.exe' title='Türkiye Ticaret Sicili Gazetesi | TOBB' /&gt;" Title="Türkiye Ticaret Sicili Gazetesi | TOBB" Url="https://www.ticaretsicil.gov.tr/view/hizlierisim/ilangoruntuleme.php" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
